@@ -1,0 +1,32 @@
+body{
+  background-color: #F3DEBA;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+#logo {
+  border-radius: 12px;
+}
+
+.column{
+  float: left;
+  width: 50%;
+}
+
+hr{
+  background-color: black;
+  height: 2px;
+  border: none;
+}
+
+footer{
+  clear: both;
+  text-align: left;
+  
+}
+
+.column2{
+  float: left;
+  width: 33%;
+  
+}

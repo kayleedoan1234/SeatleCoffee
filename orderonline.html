@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Order Online</title>
+  <link href="style-orderonline.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="logosmall.png">
+</head>
+
+<body>
+  <a href="home.html"><img src="logo.jpg" id="logo" alt="seattle espresso logo"></a>
+
+  <br>
+  <h1>Menu</h1>
+
+  <div class="row">
+
+    <div class="column">
+      <div class="card">
+        <img src="icedlatte.jpg" class="prodimg" alt="latte">
+        <div class=" info">
+          <h2 class="name">Caffe Latte</h2>
+          <p>Espresso and milk</p>
+          <div class="price">$4.75</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="caramellatte.jpg" class="prodimg" alt="caramel latte">
+        <div class="info">
+          <h2 class="name">French Caramel Latte</h2>
+          <p>Caramel, espresso, and milk </p>
+          <div class="price">$5.00</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="mocha.jpg" class="prodimg" alt="mocha latte">
+        <div class="info">
+          <h2 class="name">Mocha</h2>
+          <p>Chocolate, espresso, and milk</p>
+          <div class="price">$5.00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="column">
+      <div class="card">
+        <img src="espresso.jpg" class="prodimg" alt="espresso">
+        <div class="info">
+          <h2 class="name">Espresso</h2>
+          <p>Single origin espresso</p>
+          <div class="price">$1.90</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="coldbrew.png" class="prodimg" alt="cold brew">
+        <div class="info">
+          <h2 class="name">Cold Brew</h2>
+          <p>Cold brewed coffee</p>
+          <div class="price">$4.50</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="icedtea.jpg" class="prodimg" alt="iced tea">
+        <div class="info">
+          <h2 class="name">Tea</h2>
+          <p>Brewed fresh daily</p>
+          <div class="price">$4.00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <button class="order" onclick="getProducts();">Place Online Order</button>
+  <button class="order" onclick="calculateCost();">Submit Order </button>
+  <br><br>
+  <div id="products">
+    <table border="1">
+      <tr>
+        <th width=200px>Product Name </th>
+        <th width=50px>Price</th>
+        <th width=170px>Quantity</th>
+      </tr>
+    </table>
+    <table id="prd" border="1">
+
+    </table>
+  </div>
+
+  <footer>
+    <div class="row2">
+      <br>
+      <br>
+      <hr>
+      <div class="column2">
+        <img src="logosmall.png" id="logo2" width="60" alt="seattle espresso logo small">
+        <br>
+        <strong>&#169;2023 Seattle Espresso, Inc.</strong>
+      </div>
+
+      <div class="column2">
+        <h2><strong>Info</strong><br></h2>
+        <a href="home.html">Home</a><br>
+        <a href="orderonline.html">Order Online</a><br>
+        <a href="contacts.html">Contacts</a>
+      </div>
+
+      <div class="column2">
+        <h2>Subscribe</h2>
+        <p>Sign up to be notified of specials and discounts</p>
+        <input type="text" name="email" size="40" placeholder="Your Email">
+        <input type="submit" name="submit" value="Sign Up">
+        <br>
+        <a href="https://www.instagram.com/seattleespressoaz/?hl=en"><img src="bwinsta.png" width="40"
+            alt="instagram"></a>
+        <a href="https://www.facebook.com/seattleespressoaz/"><img src="bwfacebook.png" width="40" alt="facebook"></a>
+        <a href="https://www.yelp.com/biz/seattle-espresso-tempe"><img src="yelpbw.png" width="40" alt="yelp"></a>
+
+      </div>
+    </div>
+  </footer>
+  <script src=https://code.jquery.com/jquery-3.6.4.min.js> </script>
+  <script src="orderonline.js"></script>
+
+
+
+</body>
+
+</html>

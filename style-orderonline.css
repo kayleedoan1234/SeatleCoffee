@@ -1,0 +1,85 @@
+body{
+  background-color: #F3DEBA;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+#logo {
+   border-radius: 12px;
+}
+
+
+.prodimg {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.prodimg:hover {
+  opacity: 50%;
+}
+
+.column {
+  float: left;
+  width: 33%;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin: 25px;
+}
+
+
+
+.info {
+  max-width: 300px;
+  margin: auto;
+}
+
+#count {
+  margin: auto;
+}
+
+.online-order{
+  clear: both;
+}
+
+footer{
+  clear: both;
+  text-align: left;
+}
+
+.column2{
+  float: left;
+  width: 33%;
+}
+
+hr{
+  background-color: black;
+  height: 2px;
+  border: none;
+}
+
+.order-button{
+  font-size: 20px;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.submit-button{
+  font-size: 20px;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+table{
+  margin: auto
+}
+
+.order{
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 12px;
+}

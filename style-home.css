@@ -1,0 +1,49 @@
+body{
+  background-color: #F3DEBA;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+#logo {
+  border-radius: 12px;
+}
+
+.imglink {
+  border-radius: 12px;
+}
+
+#centerimg {
+  border-radius: 12px;
+  opacity: 80%;
+}
+
+a {
+  color: #555555;
+}
+
+a:hover {
+  color: darkgray;
+}
+
+#about {
+  font-size: 15px;
+  background-color: white;
+  border-radius:12px;
+  padding: 10px 25px;
+  text-align: justify;
+  width: 50%;
+  margin: auto;
+}
+.address{
+  text-align: center;
+}
+footer{
+  clear: both;
+  text-align: left;
+  
+}
+
+.column2{
+  float: left;
+  width: 33%;  
+}
